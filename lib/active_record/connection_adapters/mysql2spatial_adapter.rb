@@ -31,8 +31,6 @@
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 # -----------------------------------------------------------------------------
-;
-
 
 require 'rgeo/active_record'
 require 'active_record/connection_adapters/mysql2_adapter'
@@ -88,3 +86,4 @@ require 'active_record/connection_adapters/mysql2spatial_adapter/column_methods.
 require 'active_record/connection_adapters/mysql2spatial_adapter/main_adapter.rb'
 require 'active_record/connection_adapters/mysql2spatial_adapter/spatial_column.rb'
 require 'active_record/connection_adapters/mysql2spatial_adapter/arel_tosql.rb'
+require 'active_record/type/spatial.rb'
